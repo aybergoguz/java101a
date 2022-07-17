@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Odev31 {
+public class Uyglama1 {
     
     static boolean isPalindrom(int number){
         int temp=number,reverseNumber=0,lastnumber;
@@ -17,12 +17,21 @@ public class Odev31 {
             return true;
         else 
             return false;
+        
     }
+    /**
+     * @param args
+     */
     public static void main(String[] args) {
 
-        isPalindrom(9889);
+        Scanner scanner=new Scanner(System.in);
+        System.out.println("Bir Sayi Giriniz");
+        int sayi=scanner.nextInt();
 
-
+        if(isPalindrom(sayi)==true)
+            System.out.println(sayi +" : Palindrom Sayidir");
+        else
+            System.out.println(sayi + " : Palindrom Sayi Degildir.");
 
     }
 }
