@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class Dizi08{
 
     public static void main(String[] args) {
@@ -17,15 +15,11 @@ public class Dizi08{
                     dizi[j]=0;
                 }
             }
+            if(dizi[i] != 0)
+                System.out.println(dizi[i] + " sayisi " + tekrar[i] + " kere tekrar edildi.");
         }
         
-      
-        for(int i=0; i<dizi.length;i++){
-            if(tekrar[i]>=1){
-                if(dizi[i] != 0)
-                    System.out.println(dizi[i] + " sayisi " + tekrar[i] + " kere tekrar edildi.");
-            }
-        }
+
     }
 
 }
