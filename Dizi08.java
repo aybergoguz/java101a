@@ -16,7 +16,7 @@ public class Dizi08{
                 }
             }
             if(dizi[i] != 0)
-                System.out.println(dizi[i] + " sayisi " + tekrar[i] + " kere tekrar edildi.");
+            System.out.println(dizi[i] + " sayisi " + tekrar[i] + " kere tekrar edildi.");
         }
         
 
